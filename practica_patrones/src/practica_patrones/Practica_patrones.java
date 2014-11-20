@@ -16,10 +16,9 @@ public class Practica_patrones {
         List<Visualobject> vobjects = new ArrayList<>();
         vobjects.add(triangulo);
         Visualobject cuadrado = new Visualobject("cuadrado", vobjects);
-        Visualobject circulo = new Visualobject("circulo");
-        //List<Visualobject> objects = new ArrayList<>();4
+        Visualobject circulo = new Visualobject("circulo");    
         List<Visualobject> objects = new ArrayList<>();
-        objects.add(cuadrado);
+        objects.add(cuadrado); 
         objects.add(circulo);
         Layer capa = new Layer(0, objects, null);
         System.out.println(capa.visualobjects.get(0).toString());
